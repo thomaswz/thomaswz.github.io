@@ -7,5 +7,5 @@ So I don't have a history or training in programming... it is very new to me in 
 ## contents
 
 [useful links](/links)  
-[effective coding](/environment)  
-[visual studio setup](/vssetup)
+[effective coding](/environment)
+[tools](/tools)

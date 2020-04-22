@@ -15,7 +15,7 @@ I also have an iPad... really nice to watch the Youtube coders and use to refer 
 
 ## code editor
 
-I use Visual Studio Code... with "Bracket Pair Colorizer 2", and the "Material Icon" theme. The standard ESLint and Prettier... wit some Markdown editors etc.
+I use Visual Studio Code... with "Bracket Pair Colorizer 2", and the "Material Icon" theme. The standard ESLint and Prettier... wit some Markdown editors etc. [Visual studio setup](/vssetup).
 
 Its good to know the shortcuts like `Ctrl + B` closes the Explorer and `Ctrl + K V` splits the screen... [Visual Studio Code Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
 
