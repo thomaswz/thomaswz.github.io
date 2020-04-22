@@ -9,3 +9,5 @@ So I don't have a history or training in programming... it is very new to me in 
 [useful links](/links)  
 [effective coding](/environment)  
 [tools](/tools)
+[working with Nuxt](/nuxt/contents)  
+coding notes... currently under construction
