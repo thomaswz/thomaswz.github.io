@@ -1,6 +1,6 @@
 # Standard Nuxt Page
 
-###### Created 22 April 2020, Updated 22 April 2020
+###### Created 24 April 2020, Updated 24 April 2020
 
 The page can be templated with "vue" in VS Code
 
@@ -40,6 +40,9 @@ export default {
     funupdate () {
       this.$store.dispatch('funupdate', this.funcalc)
     }
+  },
+  // methods are used to change the underlying data
+  methods: {
   }
 }
 </script>
