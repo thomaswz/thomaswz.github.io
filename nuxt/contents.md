@@ -8,3 +8,4 @@
 1. [Store](/nuxt/store)
 1. [Images](/nuxt/images)
 1. [Router go back](/nuxt/routerback)
+1. [Global components](/nuxt/globalcomponents)

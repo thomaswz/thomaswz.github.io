@@ -24,7 +24,7 @@ In workspace settings:
 }
 ```
 
-In `eslintrc.js` file in the root directory:
+In `.eslintrc.js` file in the root directory:
 
 ```javascript
 module.exports = {
