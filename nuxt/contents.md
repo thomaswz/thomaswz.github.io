@@ -9,3 +9,4 @@
 1. [Images](/nuxt/images)
 1. [Router go back](/nuxt/routerback)
 1. [Global components](/nuxt/globalcomponents)
+1. [This (and Firebase)](/nuxt/this)
