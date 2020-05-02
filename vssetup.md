@@ -1,8 +1,12 @@
 # visual code setup
 
-###### Created 22 April 2020, Updated 22 April 2020
+###### Created 22 April 2020, Updated 1 May 2020
 
 I got this from other sources: Alex Gog's article [How to properly setup Nuxt with ESLint and Prettier](https://medium.com/@gogl.alex/how-to-properly-set-up-eslint-with-prettier-for-vue-or-nuxt-in-vscode-e42532099a9c)
+
+The official Nuxt guide has setup notes for EsLint and Prettier: [Nuxt EsLint and Prettier](https://nuxtjs.org/guide/development-tools/#eslint-and-prettier)
+
+**Note that the following needs to run after all the installations: `npm run lint -- --fix`**
 
 ## Install
 
@@ -21,6 +25,17 @@ In workspace settings:
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }
+}
+```
+
+Note that to avoid the end of line errors, the `.prettierrc` file must have `"endOfLine": "auto"` added:
+
+```javascript
+{
+  "semi": false,
+  "arrowParens": "always",
+  "singleQuote": true,
+  "endOfLine": "auto"
 }
 ```
 
