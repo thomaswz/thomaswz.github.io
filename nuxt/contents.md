@@ -1,6 +1,6 @@
 # Nuxtjs
 
-###### Created 22 April 2020, Updated 24 April 2020
+###### Created 22 April 2020, Updated 2 May 2020
 
 ## Contents
 
@@ -10,3 +10,4 @@
 1. [Router go back](/nuxt/routerback)
 1. [Global components](/nuxt/globalcomponents)
 1. [This (and Firebase)](/nuxt/this)
+1. [Referencing, Arrays and Objects](/nuxt/referencing) Nested inputs
