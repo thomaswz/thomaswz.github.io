@@ -43,7 +43,7 @@ export default {
   mixins: [makeObjectsFromArrays],
   methods: {
     getContentrefs() {
-      return this.makeObjectsFromArrays('happy');
+      return this.makeObjectsFromArrays();
     },
   },
 };
@@ -55,26 +55,30 @@ Code in `@/mixin/refobjectsarray.js`:
 
 ```javascript
 methods: {
-  export default {
+export default {
+  methods: {
     makeObjectsFromArrays() {
-      const columns = [];
-      const rows = [];
-      const contents = this.$refs.happy;
-      // access content through the ref into the DOM
-      for (let i = 0; i < contents.length; i++) {
-        columns.push(contents[i].id);
-        rows.push(contents[i].localValue);
+      // put it into this.$nextTick() if there are issues
+      let refs = {}
+      let columns = []
+      let rows = []
+      let result = {}
+      // get the unique refs
+      refs = this.$refs
+      // put the refs keys into an array
+      columns = Object.keys(refs)
+      // make an object of the values note that some can be nested so the if
+      for (let i in columns) {
+        if (refs[`${columns[i]}`].localValue === undefined) {
+          rows.push(refs[`${columns[i]}`][0].localValue)
+        } else rows.push(refs[`${columns[i]}`].localValue)
       }
-      //   Create an Object from the Arrays
-      const result = rows.reduce(function (result, field, index) {
-        result[columns[index]] = field;
-        return result;
-      }, {});
-
-      console.log(columns, rows, result);
-      return rows;
-    },
-  };
+      // form the new array of the refs entries i.e. keys and values
+      columns.forEach((key, i) => (result[key] = rows[i]))
+      // log the result
+      return result
+    }
+  }
 }
 ```
 

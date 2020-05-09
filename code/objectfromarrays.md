@@ -2,6 +2,8 @@
 
 ###### Created 3 May 2020, Updated 9 May 2020
 
+> reference
+
 ### the Magic
 
 The arrays must be the same length:
@@ -10,7 +12,7 @@ The arrays must be the same length:
 columns.forEach((key, i) => (result[key] = rows[i]));
 ```
 
-### Objects
+### Working with Objects
 
 ```javascript
 let abc = { a: 1, b: 2, c: 3 };
