@@ -6,8 +6,10 @@ So I don't have a history or training in programming... it is very new to me in 
 
 ## contents
 
+[code](/code/contents)  
+[vue / nuxt](/nuxt/contents)  
 [useful links](/links)  
-[effective coding](/environment)
+[effective coding](/environment)  
 [tools](/tools)
 
 I would also like to document some of the coding areas: [coding](/code/contents)
