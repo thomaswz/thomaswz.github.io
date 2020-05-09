@@ -5,15 +5,21 @@
 ## Overview
 
 This is crucial to accessing nested properties in Vue i.e. nested form groups.  
-They can be accessed through the `$ref` property, but adding a `ref = 'happy'` method to the property.
+They can be accessed through the `$ref` property, by adding a `ref = 'happy'` method to the property.
 
 They will be accessed as `Arrays`, which can then be turned into `Objects`.
 
 ## Mixin
 
-A good practice is to make this a `mixin`. A `mizin` is reusable JS function.
+A good practice is to make this a `mixin`. A `mixin` is reusable JS function.
 
-In the page:
+This `mixin` will return **all** of the `ref` items in the page as an Object.
+
+### Templase
+
+In the `<template>`:
+
+> each `ref` must be **unique**, otherwise the code below will only access the last `ref` of the like reference. I tried many iterations and could not access all the same item `ref`.
 
 ```javascript
               <!-- content is accessed through the ref -->
@@ -26,7 +32,9 @@ In the page:
               />
 ```
 
-In the script
+### Script
+
+In the `<script>`:
 
 ```javascript
 import makeObjectsFromArrays from '@/mixins/refobjectsarray';
@@ -40,6 +48,8 @@ export default {
   },
 };
 ```
+
+### Create a file for this function
 
 Code in `@/mixin/refobjectsarray.js`:
 
@@ -67,3 +77,7 @@ methods: {
   };
 }
 ```
+
+### Extending
+
+This file could be created as a global function if the mixin was referenced in the `nuxt.config.js` folder.
