@@ -10,3 +10,4 @@ Coding things I am trying to work with and understand:
 - [Useful Regex](/code/regex)
 - [Object from Arrays](/code/objectfromarrays)
 - [Firebase and SessionStorage](/code/firebasestorage)
+- [Dates - what a mission!]{/code/dates}
