@@ -6,6 +6,7 @@
 
 Coding things I am trying to work with and understand:
 
+- [Functions](/code/functions)
 - [Async wait, try, catch and promises](/code/asyncetc)
 - [Useful Regex](/code/regex)
 - [Object from Arrays](/code/objectfromarrays)

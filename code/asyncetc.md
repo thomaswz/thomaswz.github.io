@@ -1,8 +1,24 @@
-# Async await, promises, try, catch
+# Async, Await...
 
-# ** Incomplete **
+###### Created 10 May 2020, Updated 10 May 2020
 
-###### Created 22 April 2020, Updated 22 April 2020
+**under construction**
+
+## Introduction
+
+Wow! It is difficult to start here, without a foundation of the parts below.
+
+## Approach
+
+> Its best to start with [Functions](/code/functions).  
+> Then to move onto [Arrow Functions](/code/arrowfunctions);  
+> Then to move onto [Promises and Callbacks ](/code/promisescallbacks); and  
+> Only then to review [Async Await](/code/asyncetc).  
+> After all of this... comes [Try... Catch](/code/trycatch)
+
+> It is also important to know about [this](/code/this), as it will trip you up... and then you will learn about `this` :-).
+
+## Statements
 
 I need to qualify this page! I am learning, and this is what I have learnt. It does not mean that it is correct, efficient or accepted practice. In Javascript, not everything is as it seems... or is explained.
 
