@@ -13,3 +13,5 @@ So I don't have a history or training in programming... it is very new to me in 
 [tools](/tools)
 
 I would also like to document some of the coding areas: [coding](/code/contents)
+
+I need to build a CSS folder, but for the moment, use this awesome [colour resource](http://veli.ee/colorpedia/?c=00c254) thanks to [Nada Rifki](https://www.telerik.com/blogs/author/nada-rifki)
