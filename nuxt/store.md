@@ -66,3 +66,34 @@ export default {
   getters,
 };
 ```
+
+## Simple Store Layout (in `index.js` or `other.js` files)
+
+```javascript
+const state = () => ({
+  funTest: [],
+});
+
+const mutations = {
+  SET_FUNTEST(state, payload) {
+    state.funTest = payload;
+  },
+};
+
+const actions = {
+  setfunTest(context, update) {
+    context.commit('SET_FUNTEST', update);
+  },
+};
+
+const getters = {
+  getfunTest = (state) => state.funTest,
+};
+
+export default {
+  state,
+  mutations,
+  actions,
+  getters,
+};
+```
