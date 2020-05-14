@@ -87,7 +87,7 @@ const actions = {
 };
 
 const getters = {
-  getfunTest = (state) => state.funTest,
+  getfunTest: (state) => state.funTest,
 };
 
 export default {
