@@ -11,3 +11,4 @@
 1. [Global components](/nuxt/globalcomponents)
 1. [This (and Firebase)](/nuxt/this)
 1. [Referencing, Arrays and Objects](/nuxt/referencing) Nested inputs
+1. [Table Detail (hidden and exposed)](/nuxt/tabledetail)

@@ -1,4 +1,4 @@
-# Arrow Functins
+# Arrow Functions
 
 ###### Created 10 May 2020, Updated 10 May 2020
 
