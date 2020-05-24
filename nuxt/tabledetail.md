@@ -60,7 +60,8 @@ I then had an issue creating the rows... I needed to iterate through the rows.
                     >Toggle Collapse</b-button>
                 </b-td>
                 <b-td>
-                    Other: {{ `${i}` }}
+        <!-- below should be a variable with { }, {{ `0$ i ` }} but github does not like it-->
+                    Other: {{ `$ i ` }}
                 </b-td>
           </b-tr>
           <b-tr :key="'detail' + i">
