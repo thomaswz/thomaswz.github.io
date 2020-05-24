@@ -1,6 +1,6 @@
 # Nuxtjs
 
-###### Created 22 April 2020, Updated 2 May 2020
+###### Created 22 April 2020, Updated 24 May 2020
 
 ## Contents
 
