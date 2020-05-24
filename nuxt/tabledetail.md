@@ -45,21 +45,21 @@ I then had an issue creating the rows... I needed to iterate through the rows.
         </b-thead>
       <b-tbody>
           <template v-for="i in 5">
-          <b-tr :key="'rows' + i ">
+          <b-tr :key="'rows'+i" >
                 <b-td>
                     Heading: {{ `0${i}` }}
                 </b-td>
                 <b-td>
                    <b-button
-                        :class="visible ? null : 'collapsed'"
-                        :aria-expanded="visible[`v0${i}`] ? 'true' : 'false'"
+                        :class=" visible ? null : 'collapsed' "
+                        :aria-expanded=" visible[`v0${i}`] ? 'true' : 'false' "
                         :aria-controls="collapse[`${i}`]"
                         @click="visible[`v0${i}`] = !visible[`v0${i}`]"
                         variant="info"
                     >Toggle Collapse</b-button>
                 </b-td>
                 <b-td>
-                    Other: {{`0${i}`}}
+                    Other: {{ `${i}` }}
                 </b-td>
           </b-tr>
           <b-tr :key="'detail' + i">
