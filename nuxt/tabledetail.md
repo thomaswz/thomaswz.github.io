@@ -46,7 +46,7 @@ I then had an issue creating the rows... I needed to iterate through the rows.
       <b-tbody>
           <template v-for="i in 5">
           <b-tr :key="'rows'+i" >
-        <!-- below should be a variable with { }, {{ `0$ i ` }} but github does not like it-->
+        <!-- below should be a variable with { } inside two { },  '0$ i ' but github does not like it-->
                 <b-td>
                     Heading:{{ `0$ i ` }}
                 </b-td>
@@ -60,7 +60,7 @@ I then had an issue creating the rows... I needed to iterate through the rows.
                     >Toggle Collapse</b-button>
                 </b-td>
                 <b-td>
-        <!-- below should be a variable with { }, {{ `0$ i ` }} but github does not like it-->
+        <!-- below should be a variable with { } inside two { },  '0$ i '  but github does not like it-->
                     Other: {{ `$ i ` }}
                 </b-td>
           </b-tr>
