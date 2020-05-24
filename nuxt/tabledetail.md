@@ -47,7 +47,7 @@ I then had an issue creating the rows... I needed to iterate through the rows.
           <template v-for="i in 5">
           <b-tr :key="'rows' + i ">
                 <b-td>
-                    Heading: {{ `0${i}`}}
+                    Heading: {{ `0${i}` }}
                 </b-td>
                 <b-td>
                    <b-button
