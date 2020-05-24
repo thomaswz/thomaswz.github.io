@@ -48,7 +48,7 @@ I then had an issue creating the rows... I needed to iterate through the rows.
           <b-tr :key="'rows'+i" >
         <!-- below should be a variable, but github does not like it-->
                 <b-td>
-                Heading: {{`0${i}`}}
+                    Heading: {{`0${i}`}}
                 </b-td>
                 <b-td>
                    <b-button
