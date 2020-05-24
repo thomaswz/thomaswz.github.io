@@ -59,7 +59,7 @@ I then had an issue creating the rows... I needed to iterate through the rows.
                     >Toggle Collapse</b-button>
                 </b-td>
                 <b-td>
-                    Other: {{ `0${i}`}}
+                    Other: {{`0${i}`}}
                 </b-td>
           </b-tr>
           <b-tr :key="'detail' + i">
