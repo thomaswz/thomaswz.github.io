@@ -159,4 +159,22 @@ i.e. otherwise the transition will all start from the beginning point.
 Animations can morpth using the `<path>` and `d` values i.e. **d** is for "data".  
 **_For the animations to work the d structure must be exactly the same._**
 The is an excellent example of [Counting Numbers](https://codepen.io/felixhornoiu/pen/dovub).
-It is very simple code i.e. one timing value i.e. 6s; and then
+It is very simple code:
+
+```svg
+<div class=cont ><svg viewbox="0 0 400 400">
+  <path fill="#000">
+    <animate
+      attributeName="d"
+      dur="6000ms"
+      repeatCount="indefinite"
+      values="
+        M 68,0
+         52,15.899 0,47 12,212 47,251.793 120,207 110,325.793
+         78,328.793 57,296.793 10,318.793 23.239,408.725
+         43.143,421.587 173,390 188,353 179,151 177.959,96.168
+         122,87 111,149 82,146 84,88 177,113 181.843,28 117,0,0
+        Z;
+```
+
+This is also a good example using `mask` to ['roll up the curtain'](https://codepen.io/hbuchel/pen/qLxAB)
