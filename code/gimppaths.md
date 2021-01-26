@@ -44,3 +44,15 @@ The mouse has a lot of details.
 - to make a node curved, hold the node (ctrl) then drag it out and then press **shift** to change the line
 - Ctrl + Shift on the node handles retracts it
 - Use **polygonal** to retain the straight vs curved lines
+
+### Lines
+
+Hold **ctrl** + **shift** then click on the line to delete it.
+Move - alt + shift
+
+## Selection & editing
+
+- add
+- subtract
+- intersect
+  It depends on the order that these are selected in, and then use \*\* ** and **shift\*\*
