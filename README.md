@@ -6,12 +6,12 @@ So I don't have a history or training in programming... it is very new to me in 
 
 ## contents
 
-[code](/code/contents)  
-[vue / nuxt](/nuxt/contents)  
-[useful links](/links)  
-[effective coding](/environment)  
-[tools](/tools)
+[code](./code/contents.md)  
+[vue / nuxt](./nuxt/contents.md)  
+[useful links](./links.md)  
+[effective coding](./environment.md)  
+[tools](./tools.md)
 
-I would also like to document some of the coding areas: [coding](/code/contents)
+I would also like to document some of the coding areas: [coding](./code/contents.md)
 
 I need to build a CSS folder, but for the moment, use this awesome [colour resource](http://veli.ee/colorpedia/?c=00c254) thanks to [Nada Rifki](https://www.telerik.com/blogs/author/nada-rifki)

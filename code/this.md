@@ -42,4 +42,4 @@ console.log(a) // 'catfish'
 
 ## Arrow Functions
 
-[Arrow Functions](/code/arrowfunctions) **don't** create their own context.
+[Arrow Functions](./code/arrowfunctions.md) **don't** create their own context.

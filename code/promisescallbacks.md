@@ -12,13 +12,13 @@ I became confused with `promises` and `callbacks` as I did not have a foundation
 
 ## Approach
 
-> Its best to start with [Functions](/code/functions).  
-> Then to move onto [Arrow Functions](/code/arrowfunctions);  
-> Then to move onto [Promises and Callbacks ](/code/promisescallbacks); and  
-> Only then to review [Async Await](/code/asyncetc).
-> After all of this... comes [Try... Catch](/code/trycatch)
+> Its best to start with [Functions](./code/functions.md).  
+> Then to move onto [Arrow Functions](./code/arrowfunctions.md);  
+> Then to move onto [Promises and Callbacks ](./code/promisescallbacks.md); and  
+> Only then to review [Async Await](./code/asyncetc.md).
+> After all of this... comes [Try... Catch](./code/trycatch.md)
 
-> It is also important to know about [this](/code/this), as it will trip you up... and then you will learn about `this` :-).
+> It is also important to know about [this](./code/this.md), as it will trip you up... and then you will learn about `this` :-).
 
 ## Its all about Timing, then Ability
 

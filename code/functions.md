@@ -7,12 +7,12 @@
 Wow! I really did not understand functions... it was so difficult to find a clear explanation about Functions. They are used in so may ways that when looking at them, they are not easily understood intuitively.
 
 > Its best to start here.  
-> Then to move onto [Arrow Functions](/code/arrowfunctions);  
-> Then to move onto [Promises and Callbacks ](/code/promisescallbacks); and  
-> Only then to review [Async Await](/code/asyncetc).  
-> After all of this... comes [Try... Catch](/code/trycatch).
+> Then to move onto [Arrow Functions](./code/arrowfunctions.md);  
+> Then to move onto [Promises and Callbacks ](./code/promisescallbacks.md); and  
+> Only then to review [Async Await](./code/asyncetc.md).  
+> After all of this... comes [Try... Catch](./code/trycatch.md).
 
-> It is also important to know about [this](/code/this), as it will trip you up... and then you will learn about `this` :-).
+> It is also important to know about [this](./code/this.md), as it will trip you up... and then you will learn about `this` :-).
 
 ## Statements
 

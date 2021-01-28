@@ -6,9 +6,9 @@
 
 Coding things I am trying to work with and understand:
 
-- [Functions](/code/functions)
-- [Async wait, try, catch and promises](/code/asyncetc)
-- [Useful Regex](/code/regex)
-- [Object from Arrays](/code/objectfromarrays)
-- [Firebase and SessionStorage](/code/firebasestorage)
-- [Dates - what a mission!](/code/dates)
+- [Functions](./code/functions.md)
+- [Async wait, try, catch and promises](./code/asyncetc.md)
+- [Useful Regex](./code/regex.md)
+- [Object from Arrays](./code/objectfromarrays.md)
+- [Firebase and SessionStorage](./code/firebasestorage.md)
+- [Dates - what a mission!](./code/dates.md)
