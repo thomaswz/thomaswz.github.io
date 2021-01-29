@@ -14,6 +14,6 @@ This is the last part of the data flow... it might be easy to start here as thes
 > Only then to review [Async Await](./code/asyncetc.md).  
 > After all of this... comes [Try... Catch](./code/trycatch.md)
 
-> It is also important to know about [this](./code/this.md), as it will trip you up... and then you will learn about `this` :-).
+> It is also important to know about [this](./code/this.md), as it will trip you up... and then you will learn about `this`.
 
 ## Statements
