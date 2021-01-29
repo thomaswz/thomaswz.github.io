@@ -38,7 +38,7 @@ There are a lot of authentication options i.e. email, phone etc.
 
 ## Auth State
 
-There are two states i.e. authenticated or not authenticat.
+There are two states i.e. authenticated or not authenticated.
 There are a number of scenarios:
 
 - Authenticating i.e. signing in or signing out
