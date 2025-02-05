@@ -7,7 +7,7 @@
 Wow! I really did not understand functions... it was so difficult to find a clear explanation about Functions. They are used in so many ways that when looking at them, they are not easily understood intuitively.
 
 > It's best to start here.  
-> Then move on to [Arrow Functions](./arrowfunctions.mdarrowfunctions.md);  
+> Then move on to [Arrow Functions](arrowfunctions.md);  
 > Then move on to [Promises and Callbacks](./promisescallbacks.md); and  
 > Only then review [Async Await](./asyncetc.md).  
 > After all of this... comes [Try... Catch](./trycatch.md).
