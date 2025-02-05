@@ -23,14 +23,8 @@ This refers to the local machine.
 
 ## Setup
 
-This can be confusing when understanding it from the official docs.
-
-Firebase can be accessed as follows:
-
-- It can be controlled through _nodejs_ running on the local machine. This is useful for setting up _functions_ and _functionality_.
-- Through running a server as part of the dev environment.
-- Through the browser and into the firebase projects folder.
-- It will also then run in the production environment.
+I have found the docs a bit confusion. There are a lot of flavours.  
+I have added it as follows: 
 
 # Authorisation
 
