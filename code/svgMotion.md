@@ -5,7 +5,7 @@
 ## Introduction
 
 SMIL has `<animateMotion>` that guides animation along a `<path>`.
-It builds on the [inital SVG](//code/svg), just adding:
+It builds on the [inital SVG](svg.md), just adding:
 
 - `keyPoints`
 - `rotate`

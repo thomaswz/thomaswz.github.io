@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This was created as an extention of the [SVG notes](//code/svg).
+This was created as an extention of the [SVG notes](/svg).
 
 ## Code
 

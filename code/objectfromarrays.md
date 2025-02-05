@@ -20,4 +20,3 @@ let abc = { a: 1, b: 2, c: 3 };
 Object.keys(abc) = [a, b, c];
 Object.values(abc) = [1, 2, 3];
 Object.entries(abc) = { a: 1, b: 2, c: 3 };
-```

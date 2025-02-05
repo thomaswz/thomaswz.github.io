@@ -10,13 +10,13 @@ Arrow functions are used to make the code shorter. Note that they handle **`this
 
 ## Approach
 
-> Its best to start with [Functions](./code/functions.md).  
+> Its best to start with [Functions](functions.md).  
 > Then to read this;  
-> Then to move onto [Promises and Callbacks ](./code/promisescallbacks.md); and  
-> Only then to review [Async Await](./code/asyncetc.md).  
-> After all of this... comes [Try... Catch](/code/trycatch.md).
+> Then to move onto [Promises and Callbacks ](./promisescallbacks.md); and  
+> Only then to review [Async Await](./asyncetc.md).  
+> After all of this... comes [Try... Catch](/trycatch.md).
 
-> It is also important to know about [this](./code/this.md), as it will trip you up... and then you will learn about `this` :-).
+> It is also important to know about [this](./this.md), as it will trip you up... and then you will learn about `this` :-).
 
 ## To Recap
 
@@ -44,7 +44,7 @@ Note that for one line functions, the `( )` can also be left out:
 
 ## Dealing with context and `this`
 
-( Please see the [this](./code/this.md) when referring to `this`)
+( Please see the [this](./this.md) when referring to `this`)
 
 Arrow functions don't create their own context, so the this does not have to be as restrictive.
 
