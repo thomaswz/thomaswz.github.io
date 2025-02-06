@@ -30,4 +30,4 @@ I have learnt [Vuejs](https://vuejs.org/) and then [Nuxtjs](https://nuxtjs.org/)
 Things I need to check out are:
 
 - [Bootswatch](https://bootswatch.com/) Free themes for Bootstrap
-- [Rethinkdb](https://bootswatch.com/) It just looks so easy to work
+- [Rethinkdb](https://rethinkdb.com/) It just looks so easy to work
